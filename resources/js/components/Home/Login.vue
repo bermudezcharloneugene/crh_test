@@ -38,7 +38,7 @@ export default {
                 password: formData.password
             })
             .then(res => {
-                console.log(res.data.accessToken)
+
                 localStorage.setItem('token', res.data.accessToken)
                 localStorage.setItem('userId', res.data.user.id)
 
