@@ -1,19 +1,19 @@
 ## To run this project
 
-1.) Install xampp in your local machine(skip if already installed).
-2.) Create a new database
-3.) copy .env.example content to a new .env file
-4.) Inside the .env file Replace DB_DATABASE value to the name of your newly created database in phpmyadmin
-5.) run composer install and npm install
-6.) run "php artisan key:generate"
-7.) Open xampp control panel and start apache and mysql modules(Names should be labelled green if its successful).
-8.) run "php artisan migrate"
-9.) open postman(Install if you dont have) -- dont skip this
-10.) run "php artisan serve"
-11.) run npm run watch
-12.) open browser go to "localhost:8000"
-13.) Make a new post request inside postman using this api "http://localhost:8000/api/register" and include email, password, name,    password_confirmation as its body and dont forget to add the value(name=testuser, password=password, email=sample@sample.com,     password_confirmation=password)
-14.) At this point we already have a user with an access token. Use credentials email and password for login
+* Install xampp in your local machine(skip if already installed).
+* Create a new database
+* copy .env.example content to a new .env file
+* Inside the .env file Replace DB_DATABASE value to the name of your newly created database in phpmyadmin
+* run composer install and npm install
+* run "php artisan key:generate"
+* Open xampp control panel and start apache and mysql modules(Names should be labelled green if its successful).
+* run "php artisan migrate"
+* open postman(Install if you dont have) -- dont skip this
+* run "php artisan serve"
+* run npm run watch
+* open browser go to "localhost:8000"
+* Make a new post request inside postman using this api "http://localhost:8000/api/register" and include email, password, name,   password_confirmation as its body and dont forget to add the value(name=testuser, password=password, email=sample@sample.com,      password_confirmation=password)
+* At this point we already have a user with an access token. Use credentials email and password for login
 
 ## NOTES 
 
